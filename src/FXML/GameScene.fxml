@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #252525;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.GameSceneController">
+   <children>
+      <ImageView fitHeight="204.0" fitWidth="210.0" layoutX="98.0" layoutY="-34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../logo4.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="335.0" layoutY="448.0" mnemonicParsing="false" onAction="#btnResetClicked" prefHeight="10.0" prefWidth="58.0" style="-fx-background-color: white;" text="Reset" textFill="RED">
+         <font>
+            <Font name="Bodoni MT Black" size="12.0" />
+         </font>
+      </Button>
+      <TextField layoutX="74.0" layoutY="442.0" prefHeight="33.0" prefWidth="186.0" promptText="Write a word here!" style="-fx-background-color: #5166A9; -fx-border-color: white;" />
+      <Button layoutX="269.0" layoutY="442.0" mnemonicParsing="false" onAction="#btnGoClicked" prefHeight="33.0" prefWidth="58.0" style="-fx-background-color: white;" text="Go">
+         <font>
+            <Font name="Bodoni MT Black" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="lb1" layoutX="55.0" layoutY="134.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="115.0" layoutY="134.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="175.0" layoutY="134.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="235.0" layoutY="134.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="295.0" layoutY="134.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="55.0" layoutY="194.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="115.0" layoutY="194.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="175.0" layoutY="194.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="235.0" layoutY="194.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="295.0" layoutY="194.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="55.0" layoutY="254.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="115.0" layoutY="254.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="175.0" layoutY="254.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="235.0" layoutY="254.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="295.0" layoutY="254.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="55.0" layoutY="314.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="115.0" layoutY="314.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="175.0" layoutY="314.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="235.0" layoutY="314.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="295.0" layoutY="314.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="55.0" layoutY="374.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="115.0" layoutY="374.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="175.0" layoutY="374.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="235.0" layoutY="374.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Label layoutX="295.0" layoutY="374.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: lightgrey;" />
+      <Button layoutX="130.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnMenuClicked" prefHeight="107.0" prefWidth="148.0" style="-fx-background-color: transparent;" textFill="TRANSPARENT" />
+   </children>
+</AnchorPane>
