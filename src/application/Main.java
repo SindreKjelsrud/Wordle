@@ -14,8 +14,9 @@ public class Main extends Application {
 			Parent root = FXMLLoader.load(getClass().getResource("/FXML/MainScene.fxml"));
 			Scene scene = new Scene(root);
 			
-			primaryStage.setTitle("Sids Wordle!");
+			primaryStage.setTitle("Sids Wordle");
 			primaryStage.setScene(scene);
+			primaryStage.setResizable(false);
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
